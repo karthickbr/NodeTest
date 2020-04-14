@@ -73,7 +73,7 @@ mongoose
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(result => {
-    app.listen(4000);
+    app.listen(3000);
     console.log('Server Started...');
   })
   .catch(err => {
