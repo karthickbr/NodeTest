@@ -19,9 +19,6 @@ const orderSchema = new Schema({
       required: true,
       ref: 'User'
     }
-  },
-  totalPrice: {
-    type: Number
   }
 });
 
